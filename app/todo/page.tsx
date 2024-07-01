@@ -4,6 +4,7 @@ import React from "react";
 
 const page = async () => {
   console.log(">> SSR Start");
+  console.log("Hello");
 
   const result = await pingAction();
   await sleep(1500);
