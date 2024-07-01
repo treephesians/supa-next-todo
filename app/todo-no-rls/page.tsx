@@ -7,7 +7,6 @@ const page = async () => {
   await sleep(1500);
   return (
     <div>
-      page
       <TodoContainer />
     </div>
   );
